@@ -1,0 +1,29 @@
+
+{
+  "links": {
+    "above": {
+      "sign in": "users/sign_in",
+      "locales": locales
+    },
+    "left-nav": {
+      "planner": "",
+      "him": "",
+      "her": "",
+      "wedding": ""
+    },
+    "right-nav": {
+      "vendors" : {
+        "create profile": ""
+      },
+      "gallery": {
+        "ideas": "",
+        "more": ""
+      },
+      "idea_and_more": {
+        "tip": "",
+        "wedding of the week": "",
+        "more": ""
+      }
+    }
+  }
+}
