@@ -1,29 +1,54 @@
-
 {
-  "links": {
-    "above": {
-      "sign in": "users/sign_in",
-      "locales": locales
+  "above": {
+    "sign in": "users/sign_in"
+  },
+  "firstNav": [
+    {
+      "name": "planner",
+      "links": [
+        {"name": "create profile", "link": ""}
+      ]
     },
-    "left-nav": {
-      "planner": "",
-      "him": "",
-      "her": "",
-      "wedding": ""
+    {
+      "name": "him",
+      "links": [
+        {"name": "create profile", "link": ""}
+      ]
     },
-    "right-nav": {
-      "vendors" : {
-        "create profile": ""
-      },
-      "gallery": {
-        "ideas": "",
-        "more": ""
-      },
-      "idea_and_more": {
-        "tip": "",
-        "wedding of the week": "",
-        "more": ""
-      }
+    {
+      "name": "her",
+      "links": [
+        {"name": "create profile", "link": ""}
+      ]
+    },
+    {
+      "name": "wedding",
+      "links": [
+        {"name": "create profile", "link": ""}
+      ]
     }
-  }
+  ],
+  "secondNav": [
+    {
+      "name": "vendors",
+      "links": [
+        {"name": "create profile", "link": ""}
+      ]
+    },
+    {
+      "name": "gallery",
+      "links": [
+        {"name": "ideas", "link": ""},
+        {"name": "more", "link": ""}
+      ]
+    },
+    {
+      "name": "idea_and_more",
+      "links": [
+        {"name": "tip", "link": ""},
+        {"name": "wedding of the week", "link": ""},
+        {"name": "more", "link": ""}
+      ]
+    }
+  ]
 }
