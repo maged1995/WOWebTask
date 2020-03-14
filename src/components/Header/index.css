@@ -18,13 +18,26 @@
   border-top: solid 1px #000;
   border-bottom: solid 1px #000;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   width: 100%;
   height: 45px;
   align-self: flex-end;
+  padding: 0 15px 0 15px;
 }
 
+.top-left {
+  padding: 10px 0 0 20px;
+  color: #024d4c;
 
+}
+
+.lang {
+  font-weight: 900;
+  margin-left: 10px;
+  padding: 0 5px 0 5px;
+  border-left: solid 1px #000;
+  border-right: solid 1px #000;
+}
 
 .dropbtn {
   text-transform: uppercase;

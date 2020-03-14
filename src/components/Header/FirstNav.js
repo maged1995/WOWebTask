@@ -1,5 +1,8 @@
 import React from 'react';
 import Navs from './links.json'
+import ReactDOM from 'react-dom'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faUserPlus } from '@fortawesome/free-solid-svg-icons'
 
 class FirstNav extends React.Component {
 
@@ -8,7 +11,12 @@ class FirstNav extends React.Component {
     console.log(navs)
     return (
       <div class="first-nav">
-        <div class="top-left">Troll</div>
+        <div class="top-left">
+          <FontAwesomeIcon icon={faUserPlus} />
+          <a>
+            <span class='lang'>العربية</span>
+          </a>
+        </div>
         <div class="nav first">
           {navs.map(nav => (
             <div class="dropbtn">
