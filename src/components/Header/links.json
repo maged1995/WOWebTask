@@ -6,49 +6,125 @@
     {
       "name": "planner",
       "links": [
-        {"name": "create profile", "link": ""}
-      ]
+        { "name": "checklist", "link": "checklists" },
+        { "name": "budgeter", "link": "budgeter" },
+        { "name": "registry", "link": "registry" },
+        { "name": "guestlist", "link": "guestlist" },
+        { "name": "build_your_website", "link": "build_your_website" },
+        { "name": "couple", "link": "couple" },
+        { "name": "360planner", "link": "360planner" }
+      ],
+      "mobileLink": ""
     },
     {
       "name": "him",
       "links": [
-        {"name": "create profile", "link": ""}
-      ]
+        { "name": "create profile", "link": "" }
+      ],
+      "mobileLink": ""
     },
     {
       "name": "her",
       "links": [
-        {"name": "create profile", "link": ""}
-      ]
+        { "name": "create profile", "link": "" }
+      ],
+      "mobileLink": ""
     },
     {
       "name": "wedding",
       "links": [
-        {"name": "create profile", "link": ""}
-      ]
+        { "name": "create profile", "link": "" }
+      ],
+      "mobileLink": ""
     }
   ],
   "secondNav": [
     {
       "name": "vendors",
       "links": [
-        {"name": "create profile", "link": ""}
+        { "name": "create profile", "link": "" }
       ]
     },
     {
       "name": "gallery",
       "links": [
-        {"name": "ideas", "link": ""},
-        {"name": "more", "link": ""}
-      ]
+        { "name": "ideas", "link": "" },
+        { "name": "more", "link": "" }
+      ],
+      "isMobileLink": true,
+      "mobileLink": ""
     },
     {
       "name": "idea_and_more",
       "links": [
-        {"name": "tip", "link": ""},
-        {"name": "wedding of the week", "link": ""},
-        {"name": "more", "link": ""}
-      ]
+        { "name": "tip", "link": "" },
+        { "name": "wedding of the week", "link": "" },
+        { "name": "more", "link": "" }
+      ],
+      "isMobileLink": true,
+      "mobileLink": ""
+    }
+  ],
+  "mobileNav": [
+    {
+      "name": "360 planner",
+      "link": "360planner",
+      "icon": "https://weds360.com/assets/planningtools-d1a30fd03ae452337356780c2d6545641fc09ceafacc9be6e630691289f3ebcd.png",
+      "large": true
+    },
+    {
+      "name": "the wedding",
+      "link": "categories?parent_menu=for_the_wedding",
+      "icon": "https://weds360.com/assets/forthewedding-9ba500f0c747d8a3a8797fe57cc23bdbe79d6936b3454ed882e228246a159f4b.png",
+      "large": true
+    },
+    {
+      "name": "Him",
+      "link": "categories?parent_menu=for_him",
+      "icon": "https://weds360.com/assets/forhim-324ecab024ce482c643fb18d3d12b9b46af42ba54aeb69f671e3c81da199a89a.png",
+      "large": true
+    },
+    {
+      "name": "Her",
+      "link": "categories?parent_menu=for_her",
+      "icon": "https://weds360.com/assets/forher-d8d7d812387503e4873e09de527e25fb7b0835192923cdacf2528c5a00a997b8.png",
+      "large": true
+    },
+    {
+      "name": "checklist",
+      "link": "checklists",
+      "icon": "https://weds360.com/assets/checklist-e2bd8988d69f03031a18b466eb01f4d63b1679dfb5b8f505992e0828c17ca0cc.png",
+      "large": false
+    },
+    {
+      "name": "guestlist",
+      "link": "guestlist",
+      "icon": "https://weds360.com/assets/guestlist-b990534b68681a3b18c91c6d8dd7291530296b4ccd8d74a7777902546a7f8d1b.png",
+      "large": false
+    },
+    {
+      "name": "registry",
+      "link": "registry",
+      "icon": "https://weds360.com/assets/registry-87ef274209be2a9aecbd2f710150ba8b117639e2f7dbbdd5ad46dd8c91a0135e.png",
+      "large": false
+    },
+    {
+      "name": "budgeter",
+      "link": "budgeter",
+      "icon": "https://weds360.com/assets/budgeter-27e2c6b8ba6c84b111d99659d3c6269e9c3b650df4c14685abcac121e67d81ee.png",
+      "large": false
+    },
+    {
+      "name": "gallery",
+      "link": "categories?parent_menu=photos",
+      "icon": "https://weds360.com/assets/icons/tools-vision-white-28d34c7bf940dca78a1217508870e3d1c64fed89add64751e7180c9d78b868e5.png",
+      "large": true
+    },
+    {
+      "name": "idea_and_more",
+      "link": "categories?parent_menu=posts",
+      "icon": "https://weds360.com/assets/white-articles-125ba54add212fb3367c3645bbc571e277a9a2f34086b87ab27570f08acef80f.png",
+      "large": true
     }
   ]
 }

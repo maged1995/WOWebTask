@@ -9,7 +9,7 @@
 
 .first-nav{
   display: flex;
-  width: 100%;
+  width: 40%;
   flex-wrap: wrap;
 }
 
@@ -19,7 +19,7 @@
   border-bottom: solid 1px #000;
   display: flex;
   justify-content: space-between;
-  width: 100%;
+  width: 40%;
   height: 45px;
   align-self: flex-end;
   padding: 0 15px 0 15px;
@@ -52,12 +52,54 @@
 
 .nav-dropdown {
   display: none;
-  padding: 15px 0 15px 0;
+  padding-top: 1.5px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
   z-index: 1;
   position: absolute;
   align-items: center;
   width: 150px;
   top: 125px;
+}
+
+.mobile-dropdown {
+  display: none;
+  background: url(https://weds360.com/assets/background-d404a4fb1237176e7b697a2783a3f77c397aa528d3c8cb0447917be451240bdb.jpg);
+  height: 510px;
+  width: 100%;
+  flex-wrap: wrap;
+  padding: 0;
+  top: 65px;
+}
+
+.mobile-link-container {
+  display: flex;
+  border: solid 1.5px #fff;
+  height: 125px;
+  z-index: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+.mobile-link-container a {
+  color: white;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: auto;
+  text-transform: none;
+}
+
+.mobile-link-container a p {
+  margin-bottom: 0;
+}
+
+.large {
+  width: calc(50% - 3px);
+}
+
+.small {
+  width: calc(25% - 3px);
 }
 
 .dropname {
@@ -69,7 +111,9 @@
 }
 
 .link-container {
+  border-top: solid 1px #000;
   display: flex;
+  padding: 10px;
   align-items: center;
   height: 40px;
   justify-content: space-around;
@@ -95,17 +139,22 @@
   max-width: 100px;
 }
 
-.navbar-collapse {
-  flex-grow: 0 !important;
-  flex-wrap: nowrap !important;
+.fa-bars {
+  display: none;
+  height: 100%;
+  width: 30px !important;
+  margin: auto 30px auto 55px;
 }
 
-.dropdown-toggle {
-  padding: 15px !important;
+.nav-wrapped {
+  width: 100% !important;
 }
 
+.bars:hover .mobile-dropdown {
+  display: flex !important;
+}
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
   .nav-collapse {
     display: flex;
   }
@@ -116,17 +165,50 @@
   .first-nav{
     width: auto;
     height: auto;
-
+    margin: auto 0 auto 30px;
     align-items: center;
   }
 
-  .first {
-    display: none;
+  .top-left {
+    padding: 0;
+  }
+
+  .navigation-bar {
+    margin: 0;
+    height: 60px;
+    justify-content: space-between;
+  }
+
+  .home-link {
+    margin: 10px;
+    height: 40px;
+  }
+
+  a img {
+    height: 40px;
+  }
+
+  .fa-bars {
+    display: flex;
+  }
+
+  .mobile-dropdown {
+    display: flex;
   }
 }
 
 @media only screen and (min-width: 768px) {
   .nav-collapse {
     display: none;
+  }
+
+  .dropbtn {
+    font-size: 10px;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .dropbtn {
+    font-size: 14px;
   }
 }
