@@ -1,2 +1,2 @@
-import { asyncAction } from "store/actionCreator";
+import { asyncAction } from "../actionCreator";
 export const fetchPhotos = asyncAction(`fetchPhotos`);

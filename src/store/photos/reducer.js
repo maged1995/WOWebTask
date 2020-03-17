@@ -9,12 +9,12 @@ const photos = createReducer(
   },
   {
     [actions.fetchPhotos.request]: state => ({
-      ..state,
+      ...state,
       loading: true,
     }),
     [actions.fetchPhotos.success]: (state, action) => ({
       loading: false,
-      entries: action.payload.images,
+      entries: action.payload,
       meta: action.payload.meta,
     }),
     [actions.fetchPhotos.failure]: () => ({
