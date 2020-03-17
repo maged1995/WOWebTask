@@ -1,0 +1,84 @@
+{
+  "photos": [
+    {
+      "id": 397,
+      "title": "Wedding details",
+      "photo": "image_processing20190714-53-sf2eqc.png",
+      "397": {
+        "title": "Wedding details",
+        "author": "typicode",
+        "description": "Bits and pieces of the wedding's bigger picture.",
+        "photo": "image_processing20190714-53-sf2eqc.png"
+      }
+    },
+    {
+      "id": 396,
+      "title": "Gold/marble wedding cake",
+      "photo": "image_processing20190710-661-svyrot.png",
+      "396": {
+        "title": "Gold/marble wedding cake",
+        "author": "typicode",
+        "description": "Two tire gold/marble wedding cake with peach sugar flowers decoration and topper.",
+        "photo": "image_processing20190710-661-svyrot.png"
+      }
+    },
+    {
+      "id": 395,
+      "title": "Gold frame Invitation set",
+      "photo": "image_processing20190710-661-a89rt2.png",
+      "395": {
+        "title": "Gold frame Invitation set",
+        "author": "typicode",
+        "description": "Delicate gold frame, wax stamped floral wedding invitation set.",
+        "photo": "image_processing20190710-661-a89rt2.png"
+      }
+    },
+    {
+      "id": 394,
+      "title": "Beating hearts",
+      "photo": "image_processing20190708-661-1ortt03.png",
+      "394": {
+        "title": "Beating hearts",
+        "author": "typicode",
+        "description": "Scattered tiny hearts mean much love for the bride and groom.",
+        "photo": "image_processing20190708-661-1ortt03.png"
+      }
+    },
+    {
+      "id": 393,
+      "title": "Peach wonderland",
+      "photo": "image_processing20190704-661-uyh0na.png",
+      "393": {
+        "title": "Peach wonderland",
+        "author": "typicode",
+        "description": "Majestic ambiance created with faint orange lighting, thousands of tiny white blossoms, and a piano.",
+        "photo": "image_processing20190704-661-uyh0na.png"
+      }
+    },
+    {
+      "id": 392,
+      "title": "White and silver Cake",
+      "photo": "image_processing20190710-661-wqrei7.png",
+      "392": {
+        "title": "White and silver Cake",
+        "author": "typicode",
+        "description": "Two-leveled wedding cake decorated with colorful roses.",
+        "photo": "image_processing20190710-661-wqrei7.png"
+      }
+    },
+    {
+      "id": 391,
+      "title": "Wooden guestbook",
+      "photo": "image_processing20190710-661-lfo25c.png",
+      "391": {
+        "title": "Wooden guestbook",
+        "author": "typicode",
+        "description": "Two tire gold/marble wedding cake with peach sugar flowers decoration and topper.",
+        "photo": "image_processing20190710-661-lfo25c.png"
+      }
+    }
+  ],
+  "categories": [
+    { "id": 1, "photo": "some comment", "postId": 1 }
+  ]
+}
