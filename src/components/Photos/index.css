@@ -1,0 +1,22 @@
+#photos {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+}
+
+#photos-search {
+  width: 25%;
+}
+
+#photos-search-buttons {
+
+}
+
+#photos-search-input {
+
+}
+
+#photos-list {
+  width: 75%;
+}

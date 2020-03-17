@@ -1,6 +1,7 @@
 import React from 'react';
 
-const List = () => {
+const Search = () => {
+
   return (
 
   );
